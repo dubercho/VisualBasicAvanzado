@@ -37,6 +37,28 @@
             </div>
         </div>
         <div class="form-group">
+            <asp:Label runat="server" AssociatedControlID="UserName" CssClass="col-md-2 control-label">Código</asp:Label>
+            <div class="col-md-10">
+                <asp:TextBox runat="server" ID="TextBox1" CssClass="form-control" />
+                <asp:RequiredFieldValidator runat="server" ControlToValidate="UserName"
+                    CssClass="text-danger" ErrorMessage="El campo de código es obligatorio." />
+            </div>
+        </div>
+
+        <div class="form-group">
+            <asp:Label runat="server" AssociatedControlID="UserName" CssClass="col-md-2 control-label">Correo electrónico</asp:Label>
+            <div class="col-md-10">
+                <asp:TextBox runat="server" ID="TextBox2" CssClass="form-control" />
+            </div>
+        </div>
+
+        <div class="form-group">
+            <asp:Label runat="server" AssociatedControlID="UserName" CssClass="col-md-2 control-label">Sede</asp:Label>
+            <div class="col-md-10">
+                <asp:TextBox runat="server" ID="TextBox3" CssClass="form-control" />
+            </div>
+        </div>
+        <div class="form-group">
             <div class="col-md-offset-2 col-md-10">
                 <asp:Button runat="server" OnClick="CreateUser_Click" Text="Registrarse" CssClass="btn btn-default" />
             </div>
