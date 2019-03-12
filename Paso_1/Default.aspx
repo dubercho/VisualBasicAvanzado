@@ -3,39 +3,28 @@
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 
     <div class="jumbotron">
-        <h1>ASP.NET</h1>
-        <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS, and JavaScript.</p>
-        <p><a href="http://www.asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
+        <h1>Universidad Nacional Abierta y a Distancia</h1>
+        <h2>UNAD</h2>
     </div>
 
     <div class="row">
         <div class="col-md-4">
-            <h2>Getting started</h2>
-            <p>
-                ASP.NET Web Forms lets you build dynamic websites using a familiar drag-and-drop, event-driven model.
-            A design surface and hundreds of controls and components let you rapidly build sophisticated, powerful UI-driven sites with data access.
-            </p>
-            <p>
-                <a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301948">Learn more &raquo;</a>
-            </p>
+            <h2>
+                Programa de apoyo
+            </h2>
         </div>
-        <div class="col-md-4">
-            <h2>Get more libraries</h2>
-            <p>
-                NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.
-            </p>
-            <p>
-                <a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301949">Learn more &raquo;</a>
-            </p>
-        </div>
-        <div class="col-md-4">
-            <h2>Web Hosting</h2>
-            <p>
-                You can easily find a web hosting company that offers the right mix of features and price for your applications.
-            </p>
-            <p>
-                <a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301950">Learn more &raquo;</a>
-            </p>
+        <div class="col-md-8">
+            <h4>La Universidad Nacional Abierta y a Distancia abre su programa de apoyo en el proceso enseñanza aprendizaje de los estudiantes de ingeniería de sistemas</h4>
+            <h4>Las áreas en la que se ofrese este servicio son:</h4>
+            <asp:BulletedList ID="BulletedList1" runat="server" style="font-size: medium">
+                <asp:ListItem >Inglés</asp:ListItem>
+                <asp:ListItem>Manejo del medio ambiente</asp:ListItem>
+                <asp:ListItem>Scratch</asp:ListItem>
+                <asp:ListItem>Kodu</asp:ListItem>
+                <asp:ListItem>Realidad aumentada</asp:ListItem>
+                <asp:ListItem>Realidad virtual</asp:ListItem>
+            </asp:BulletedList>
+            <h4>Para acceder a los servicios es necesario registrarse e inscribirse en el servicio de su elección</h4>
         </div>
     </div>
 

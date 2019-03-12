@@ -1,5 +1,5 @@
 ﻿
-Partial Class About
+Partial Class Scratch
     Inherits Page
 
 End Class
