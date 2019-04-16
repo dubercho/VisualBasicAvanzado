@@ -13,27 +13,28 @@
     <div class="row">
         <div class="col-xs-4 col-md-2">
             <ul style="list-style-type: none" class="nav">
-                <li><a href="Scratch.aspx">Introducción</a></li>
-                <li><a href="Scratch.aspx">Acerca de</a></li>
-                <li><a href="Scratch.aspx" title="Temas">Temas</a></li>
-                <li><a href="Scratch.aspx">Juegos</a></li>
-                <li><a href="Scratch.aspx">Actividades</a></li>
-                <li><a href="Scratch.aspx">Exámenes</a></li>
+                <li><a href="#">Introducción</a></li>
+                <li><a href="#">Acerca de</a></li>
+                <li style="background-color: #E4E4E4"><a href="Scratch.aspx" title="Temas">Temas</a></li>
+                <li><a href="#">Juegos</a></li>
+                <li><a href="#">Actividades</a></li>
+                <li><a href="ScratchEvaluacion.aspx">Evaluaciones</a></li>
             </ul>
         </div>
 
         <div class="col-xs-6 col-md-2">
             <ul style="list-style-type: none" class="nav">
-                <li><a runat="server" href="~/Scratch">Lo que aprenderás</a></li>
-                <li><a runat="server" href="~/Scratch">Diseño del editor</a></li>
-                <li><a runat="server" href="~/Scratch">Editor de dibujo</a></li>
-                <li><a runat="server" href="~/Scratch">Editor de sonido</a></li>
-                <li><a runat="server" href="~/Scratch">Entorno de trabajo</a></li>
-                <li><a runat="server" href="~/Scratch">Primeros pasos</a></li>
+                <li><a runat="server" href="#">Lo que aprenderás</a></li>
+                <li style="background-color: #E4E4E4"><a runat="server" href="#">Diseño del editor</a></li>
+                <li><a runat="server" href="#">Editor de dibujo</a></li>
+                <li><a runat="server" href="#">Editor de sonido</a></li>
+                <li><a runat="server" href="#">Entorno de trabajo</a></li>
+                <li><a runat="server" href="#">Primeros pasos</a></li>
             </ul>
         </div>
 
         <div class="col-xs-10 col-md-8">
+            <p>Aquí va el contenido</p>
             <img alt="no hay aún" src="Imagenes/scratch-og.png" class="col-xs-12 col-md-12" />
             <img alt="no hay aún" src="Imagenes/scratch-og.png" class="col-xs-12 col-md-12" />
             <img alt="no hay aún" src="Imagenes/scratch-og.png" class="col-xs-12 col-md-12" />

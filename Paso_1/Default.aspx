@@ -17,7 +17,7 @@
             <h4>La Universidad Nacional Abierta y a Distancia abre su programa de apoyo en el proceso enseñanza aprendizaje de los estudiantes de ingeniería de sistemas</h4>
             <h4>Las áreas en la que se ofrese este servicio son:</h4>
             <asp:BulletedList ID="BulletedList1" runat="server" style="font-size: medium">
-                <asp:ListItem >Inglés</asp:ListItem>
+                <asp:ListItem>Inglés</asp:ListItem>
                 <asp:ListItem>Manejo del medio ambiente</asp:ListItem>
                 <asp:ListItem>Scratch</asp:ListItem>
                 <asp:ListItem>Kodu</asp:ListItem>
