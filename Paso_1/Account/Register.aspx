@@ -37,18 +37,18 @@
             </div>
         </div>
         <div class="form-group">
-            <asp:Label runat="server" AssociatedControlID="UserName" CssClass="col-md-2 control-label">Código</asp:Label>
+            <asp:Label runat="server" AssociatedControlID="Id" CssClass="col-md-2 control-label">Código</asp:Label>
             <div class="col-md-10">
-                <asp:TextBox runat="server" ID="TextBox1" CssClass="form-control" />
-                <asp:RequiredFieldValidator runat="server" ControlToValidate="UserName"
+                <asp:TextBox runat="server" ID="Id" CssClass="form-control" />
+                <asp:RequiredFieldValidator runat="server" ControlToValidate="Id"
                     CssClass="text-danger" ErrorMessage="El campo de código es obligatorio." />
             </div>
         </div>
 
         <div class="form-group">
-            <asp:Label runat="server" AssociatedControlID="UserName" CssClass="col-md-2 control-label">Correo electrónico</asp:Label>
+            <asp:Label runat="server" AssociatedControlID="Email" CssClass="col-md-2 control-label">Correo electrónico</asp:Label>
             <div class="col-md-10">
-                <asp:TextBox runat="server" ID="TextBox2" CssClass="form-control" />
+                <asp:TextBox runat="server" ID="Email" CssClass="form-control" />
             </div>
         </div>
 

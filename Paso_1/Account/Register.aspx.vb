@@ -10,7 +10,7 @@ Public Partial Class Account_Register
     Inherits Page
     Protected Sub CreateUser_Click(sender As Object, e As EventArgs)
         Dim manager = New UserManager()
-        Dim user = New ApplicationUser() With {.UserName = userName.Text}
+        Dim user = New ApplicationUser() With {.UserName = UserName.Text}
         Dim result = manager.Create(user, Password.Text)
         If result.Succeeded Then
             IdentityHelper.SignIn(manager, user, isPersistent:=False)
