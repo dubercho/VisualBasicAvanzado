@@ -53,14 +53,17 @@
         </div>
 
         <div class="form-group">
-            <asp:Label runat="server" AssociatedControlID="UserName" CssClass="col-md-2 control-label">Sede</asp:Label>
+            <asp:Label runat="server" AssociatedControlID="Sede" CssClass="col-md-2 control-label">Sede</asp:Label>
             <div class="col-md-10">
-                <asp:TextBox runat="server" ID="TextBox3" CssClass="form-control" />
+                <asp:TextBox runat="server" ID="Sede" CssClass="form-control" />
             </div>
         </div>
         <div class="form-group">
             <div class="col-md-offset-2 col-md-10">
                 <asp:Button runat="server" OnClick="CreateUser_Click" Text="Registrarse" CssClass="btn btn-default" />
+                <%--<asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ConexionConCursosUnad %>" SelectCommand="SELECT [Id_Usuario], [Nombre_Usuario], [Contrasena_Usuario], [Correo_Usuario], [Sede_Unad] FROM [Usuario]"></asp:SqlDataSource>--%>
+                <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ConexionConCursosUnad %>" SelectCommand= "INSERT INTO Usuario(Id_Usuario, Nombre_Usuario, Contrasena_Usuario, Correo_Usuario, Sede_Unad) VALUES (Id, 'UserName', 'Password', 'Email', 'Sede')"></asp:SqlDataSource>
+                
             </div>
         </div>
     </div>
