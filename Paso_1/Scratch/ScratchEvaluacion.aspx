@@ -13,28 +13,27 @@
     <div class="row">
         <div class="col-xs-4 col-md-2">
             <ul style="list-style-type: none" class="nav">
-                <li><a href="Scratch.aspx">Introducción</a></li>
+                <li><a href="Scratch_Intro.aspx">Introducción</a></li>
                 <li><a href="Scratch.aspx">Acerca de</a></li>
-                <li><a href="Scratch.aspx" title="Temas">Temas</a></li>
+                <li><a href="Scratch_Temas.aspx" title="Temas">Temas</a></li>
                 <li><a href="Scratch.aspx">Juegos</a></li>
                 <li><a href="Scratch.aspx">Actividades</a></li>
-                <li  style="background-color: #E4E4E4"><a href="Scratch.aspx">Evaluaciones</a></li>
+                <li  style="background-color: #E4E4E4"><a href="ScratchEvaluacion.aspx">Evaluaciones</a></li>
             </ul>
         </div>
 
         <div class="col-xs-6 col-md-2">
             <ul style="list-style-type: none" class="nav">
-                <li><a runat="server" href="#">Explicación</a></li>
-                <li style="background-color: #E4E4E4"><a runat="server" href="#">Examen principiante</a></li>
-                <li><a runat="server" href="~/Scratch">Examen intermedio</a></li>
-                <li><a runat="server" href="~/Scratch">Examen final</a></li>
-                <li><a runat="server" href="~/Scratch">Notas</a></li>
+                <li style="background-color: #E4E4E4"><a runat="server" href="#">Explicación</a></li>
+                <li><a runat="server" href="#">Examen intermedio</a></li>
+                <li><a runat="server" href="#">Examen final</a></li>
+                <li><a runat="server" href="#">Notas</a></li>
             </ul>
         </div>
 
         <div class="col-xs-10 col-md-8">
             <p style="font-size: medium">Pregunta 1 ...</p>
-            <img alt="no hay aún" src="Imagenes/prueba.png" class="col-xs-12 col-md-12" />
+            <img alt="no hay aún" src="../Imagenes/prueba.png" class="col-xs-12 col-md-12" />
             <hr />
             <hr />
             <asp:RadioButtonList ID="RadioButtonList1" runat="server">
