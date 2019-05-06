@@ -25,6 +25,7 @@
         <div class="col-xs-6 col-md-2">
             <ul style="list-style-type: none" class="nav">
                 <li style="background-color: #E4E4E4"><a runat="server" href="#">Explicación</a></li>
+                <li><a runat="server" href="#">Examen inicial</a></li>
                 <li><a runat="server" href="#">Examen intermedio</a></li>
                 <li><a runat="server" href="#">Examen final</a></li>
                 <li><a runat="server" href="#">Notas</a></li>
