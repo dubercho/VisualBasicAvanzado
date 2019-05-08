@@ -14,7 +14,6 @@
         <div class="col-xs-4 col-md-2">
             <ul style="list-style-type: none" class="nav">
                 <li><a href="Scratch_Intro.aspx">Introducción</a></li>
-                <li><a href="#">Acerca de</a></li>
                 <li style="background-color: #E4E4E4"><a href="Scratch_Temas.aspx" title="Temas">Temas</a></li>
                 <li><a href="#">Juegos</a></li>
                 <li><a href="#">Actividades</a></li>
