@@ -15,7 +15,7 @@
             <ul style="list-style-type: none" class="nav">
                 <li><a href="Scratch_Intro.aspx">Introducción</a></li>
                 <li style="background-color: #E4E4E4"><a href="Scratch_Temas.aspx" title="Temas">Temas</a></li>
-                <li><a href="#">Actividades</a></li>
+                <li><a href="Scratch_Actividades_Persigue.aspx">Actividades</a></li>
                 <li><a href="ScratchEvaluacion.aspx">Evaluaciones</a></li>
             </ul>
         </div>
@@ -31,28 +31,40 @@
         <br />
 
         <div class="col-xs-10 col-md-8">
-            <h4 style="box-sizing: border-box; margin: 0px 0px 20px; font-weight: 700; line-height: 1.2; font-size: 24px; padding: 0px 0px 10px; border-bottom: 1px solid rgb(240, 240, 240); color: rgb(4, 22, 31); font-family: &quot;Open Sans&quot;, Helvetica, sans-serif; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-style: initial; text-decoration-color: initial;">Escenario de Scratch</h4>
-            <p style="box-sizing: border-box; margin: 0px 0px 20px; color: rgb(17, 17, 17); font-family: &quot;Open Sans&quot;, Helvetica, sans-serif; font-size: 18px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-style: initial; text-decoration-color: initial;">
-                Sobre la izquierda tenemos el<span>&nbsp;</span><strong style="box-sizing: border-box; font-weight: 600;">escenario</strong><span>&nbsp;</span>o lugar donde podemos ver el resultado de nuestro programa. En este ejemplo el gato es un objetivo sobre el cual podemos trabajar, se trata en realidad del logo de Scratch que aparece por defecto.</p>
-            <p style="box-sizing: border-box; margin: 0px 0px 20px; color: rgb(17, 17, 17); font-family: &quot;Open Sans&quot;, Helvetica, sans-serif; font-size: 18px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-style: initial; text-decoration-color: initial;">
-                Pero no hay limitaciones en cuanto a objetos a utilizar, la misma aplicación cuenta con una galería donde elegirlos e incluso se pueden crear a partir de fotos, subir o editar (pintar, modificar) en el mismo Scratch. También podemos trabajar con distintos escenarios al mismo tiempo y agregarles fondos personalizados a cada uno de ellos.</p>
-            <p style="box-sizing: border-box; margin: 0px 0px 20px; color: rgb(17, 17, 17); font-family: &quot;Open Sans&quot;, Helvetica, sans-serif; font-size: 18px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-style: initial; text-decoration-color: initial;">
-                <img alt="Escenario de Scratch" src="https://www.programoergosum.com/images/cursos/26-curso-de-programacion-de-juegos-con-scratch/escenario-de-scratch.jpg" /></p>
-            <h4 style="box-sizing: border-box; margin: 0px 0px 20px; font-weight: 700; line-height: 1.2; font-size: 24px; padding: 0px 0px 10px; border-bottom: 1px solid rgb(240, 240, 240); color: rgb(4, 22, 31); font-family: &quot;Open Sans&quot;, Helvetica, sans-serif; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-style: initial; text-decoration-color: initial;">Bloques de programación</h4>
-            <p style="box-sizing: border-box; margin: 0px 0px 20px; color: rgb(17, 17, 17); font-family: &quot;Open Sans&quot;, Helvetica, sans-serif; font-size: 18px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-style: initial; text-decoration-color: initial;">
-                En la parte central se ve la<span>&nbsp;</span><strong style="box-sizing: border-box; font-weight: 600;">paleta de bloques</strong><span>&nbsp;</span>que se utiliza para el programa, hay diferentes categorías y colores para identificarlos mejor. También hay otras dos pestañas con más opciones que permiten trabajar con sonidos y disfraces, estos son los diseños o las distintas formas que un mismo objeto puede tener.</p>
-            <p style="box-sizing: border-box; margin: 0px 0px 20px; color: rgb(17, 17, 17); font-family: &quot;Open Sans&quot;, Helvetica, sans-serif; font-size: 18px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-style: initial; text-decoration-color: initial;">
-                <img alt="Bloques de Scratch" src="https://www.programoergosum.com/images/cursos/26-curso-de-programacion-de-juegos-con-scratch/bloques-de-scratch.jpg" /></p>
-            <h4 style="box-sizing: border-box; margin: 0px 0px 20px; font-weight: 700; line-height: 1.2; font-size: 24px; padding: 0px 0px 10px; border-bottom: 1px solid rgb(240, 240, 240); color: rgb(4, 22, 31); font-family: &quot;Open Sans&quot;, Helvetica, sans-serif; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-style: initial; text-decoration-color: initial;">Área de programación</h4>
-            <p style="box-sizing: border-box; margin: 0px 0px 20px; color: rgb(17, 17, 17); font-family: &quot;Open Sans&quot;, Helvetica, sans-serif; font-size: 18px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-style: initial; text-decoration-color: initial;">
-                <span style="color: rgb(17, 17, 17); font-family: &quot;Open Sans&quot;, Helvetica, sans-serif; font-size: 18px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">Por último, sobre la derecha está el<span>&nbsp;</span></span><strong style="box-sizing: border-box; font-weight: 600; color: rgb(17, 17, 17); font-family: &quot;Open Sans&quot;, Helvetica, sans-serif; font-size: 18px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-style: initial; text-decoration-color: initial;">área 
-                de trabajo o programación</strong><span style="color: rgb(17, 17, 17); font-family: &quot;Open Sans&quot;, Helvetica, sans-serif; font-size: 18px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;"><span>&nbsp;</span>donde los bloques se deben colocar de forma ordenada para crear el programa. Observa la forma anidada de puzle que tiene la programación.</span></p>
-            <p style="box-sizing: border-box; margin: 0px 0px 20px; color: rgb(17, 17, 17); font-family: &quot;Open Sans&quot;, Helvetica, sans-serif; font-size: 18px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-style: initial; text-decoration-color: initial;">
-                <img alt="ProgramaciÃ³n de Scratch" src="https://www.programoergosum.com/images/cursos/26-curso-de-programacion-de-juegos-con-scratch/programacion-de-scratch.jpg" /></p>
-            <p style="box-sizing: border-box; margin: 0px 0px 20px; font-weight: 700; line-height: 1.2; font-size: 24px; padding: 0px 0px 10px; border-bottom: 1px solid rgb(240, 240, 240); color: rgb(4, 22, 31); font-family: &quot;Open Sans&quot;, Helvetica, sans-serif; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-style: initial; text-decoration-color: initial;">
-                &nbsp;</p>
-            <p style="box-sizing: border-box; margin: 0px 0px 20px; color: rgb(17, 17, 17); font-family: &quot;Open Sans&quot;, Helvetica, sans-serif; font-size: 18px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-style: initial; text-decoration-color: initial;">
-                &nbsp;</p>
+            <h4>Escenario de Scratch</h4>
+            <p>
+                Sobre la izquierda tenemos el escenario o lugar donde podemos ver el resultado de nuestro 
+                programa. En este ejemplo el gato es un objetivo sobre el cual podemos trabajar, se trata 
+                en realidad del logo de Scratch que aparece por defecto.
+            </p>
+            <p>
+                Pero no hay limitaciones en cuanto a objetos a utilizar, la misma aplicación cuenta con una 
+                galería donde elegirlos e incluso se pueden crear a partir de fotos, subir o editar (pintar, 
+                modificar) en el mismo Scratch. También podemos trabajar con distintos escenarios al mismo 
+                tiempo y agregarles fondos personalizados a cada uno de ellos.
+            </p>
+            <p>
+                <img alt="Escenario de Scratch" src="https://www.programoergosum.com/images/cursos/26-curso-de-programacion-de-juegos-con-scratch/escenario-de-scratch.jpg" />
+            </p>
+            <h4>Bloques de programación</h4>
+            <p>
+                En la parte central se ve la paleta de bloques que se utiliza para el programa, hay diferentes 
+                categorías y colores para identificarlos mejor. También hay otras dos pestañas con más opciones 
+                que permiten trabajar con sonidos y disfraces, estos son los diseños o las distintas formas que 
+                un mismo objeto puede tener.
+            </p>
+            <p>
+                <img alt="Bloques de Scratch" src="https://www.programoergosum.com/images/cursos/26-curso-de-programacion-de-juegos-con-scratch/bloques-de-scratch.jpg" />
+            </p>
+            <h4>Área de programación</h4>
+            <p>
+                Por último, sobre la derecha está el área de trabajo o programación donde los bloques se deben 
+                colocar de forma ordenada para crear el programa. Observa la forma anidada de puzle que tiene 
+                la programación.
+            </p>
+            <p>
+                <img alt="ProgramaciÃ³n de Scratch" src="https://www.programoergosum.com/images/cursos/26-curso-de-programacion-de-juegos-con-scratch/programacion-de-scratch.jpg" />
+            </p>
         </div>
     </div>
 </asp:Content>

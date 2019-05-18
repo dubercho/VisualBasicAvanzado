@@ -1,0 +1,91 @@
+﻿<%@ Master Language="VB" MasterPageFile="~/Site.master" AutoEventWireup="false" CodeFile="Actividades.master.vb" Inherits="Scratch_Actividades" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="Server">
+        <style type="text/css">
+        h4 {
+            box-sizing: border-box;
+            margin: 0px 0px 20px;
+            font-weight: 700;
+            line-height: 1.2;
+            font-size: 24px;
+            padding: 0px 0px 10px;
+            border-bottom: 1px solid rgb(240, 240, 240);
+            color: rgb(4, 22, 31);
+            font-family: Helvetica, sans-serif;
+            font-style: normal;
+            font-variant-ligatures: normal;
+            font-variant-caps: normal;
+            letter-spacing: normal;
+            orphans: 2;
+            text-align: left;
+            text-indent: 0px;
+            text-transform: none;
+            white-space: normal;
+            widows: 2;
+            word-spacing: 0px;
+            -webkit-text-stroke-width: 0px;
+            background-color: rgb(255, 255, 255);
+            text-decoration-style: initial;
+            text-decoration-color: initial;
+        }
+
+        p {
+            box-sizing: border-box;
+            margin: 0px 0px 20px;
+            color: rgb(17, 17, 17);
+            font-family: Helvetica, sans-serif;
+            font-size: 18px;
+            font-style: normal;
+            font-variant-ligatures: normal;
+            font-variant-caps: normal;
+            font-weight: 400;
+            letter-spacing: normal;
+            orphans: 2;
+            text-align: left;
+            text-indent: 0px;
+            text-transform: none;
+            white-space: normal;
+            widows: 2;
+            word-spacing: 0px;
+            -webkit-text-stroke-width: 0px;
+            background-color: rgb(255, 255, 255);
+            text-decoration-style: initial;
+            text-decoration-color: initial;
+        }
+    </style>
+
+    <h2><%:Page.Title %>.</h2>
+    <h3>Curso de apoyo para el proceso de enseñanza - aprendizaje.</h3>
+    <p>Para tomar este curso debes aceptar la inscripción</p>
+    <div>
+        <asp:Button ID="Button1" runat="server" Text="Aceptar Inscripción" CssClass="btn btn-default" />
+        <br />
+        <br />
+    </div>
+    <br />
+    <div class="row">
+        <div class="col-xs-4 col-md-2">
+            <ul style="list-style-type: none" class="nav">
+                <li><a href="Scratch_Intro.aspx">Introducción</a></li>
+                <li><a href="Scratch_Temas.aspx">Temas</a></li>
+                <li style="background-color: #E4E4E4"><a href="Scratch_Actividades_Persigue.aspx">Actividades</a></li>
+                <li><a href="ScratchEvaluacion.aspx">Evaluaciones</a></li>
+            </ul>
+        </div>
+
+        <div class="col-xs-6 col-md-2">
+            <ul style="list-style-type: none" class="nav">
+                <li><a runat="server" href="Scratch_Actividades_Persigue.aspx">Juego de Persigue</a></li>
+                <li><a runat="server" href="~/Scratch/Scratch_Actividades_Variables.aspx">Variables</a></li>
+                <li><a runat="server" href="#">prueba</a></li>
+                <li><a runat="server" href="#">Prueba</a></li>
+            </ul>
+        </div>
+
+        <div class="container body-content">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </div>
+</asp:Content>
+

@@ -15,7 +15,7 @@
             <ul style="list-style-type: none" class="nav">
                 <li><a href="Scratch_Intro.aspx">Introducción</a></li>
                 <li><a href="Scratch_Temas.aspx" title="Temas">Temas</a></li>
-                <li><a href="#">Actividades</a></li>
+                <li><a href="Scratch_Actividades_Persigue.aspx">Actividades</a></li>
                 <li  style="background-color: #E4E4E4"><a href="ScratchEvaluacion.aspx">Evaluaciones</a></li>
             </ul>
         </div>

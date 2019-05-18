@@ -15,7 +15,7 @@
             <ul style="list-style-type: none" class="nav">
                 <li><a href="Scratch_Intro.aspx">Introducción</a></li>
                 <li><a href="Scratch_Temas.aspx" title="Temas">Temas</a></li>
-                <li><a href="#">Actividades</a></li>
+                <li><a href="Scratch_Actividades_Persigue.aspx">Actividades</a></li>
                 <li  style="background-color: #E4E4E4"><a href="ScratchEvaluacion.aspx">Evaluaciones</a></li>
             </ul>
         </div>
@@ -31,7 +31,7 @@
         </div>
 
         <div class="col-xs-10 col-md-8">
-            <p style="font-size: medium">Pregunta 1 ...</p>
+            <p>Pregunta 1 ...</p>
             <img alt="no hay aún" src="../Imagenes/prueba.png" class="col-xs-12 col-md-12" />
             <hr />
             <hr />
@@ -43,7 +43,8 @@
             </asp:RadioButtonList>
             <hr />
             <hr />
-            <p>Pregunta 2 ...</p>
+            <p>Pregunta 2 .... 
+            </p>
         </div>
     </div>
 </asp:Content>

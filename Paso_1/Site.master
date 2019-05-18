@@ -4,7 +4,7 @@
 
 <html lang="en">
 <head runat="server">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title><%: Page.Title %> - UNAD </title>
@@ -12,9 +12,61 @@
     <asp:PlaceHolder runat="server">
         <%: Scripts.Render("~/bundles/modernizr") %>
     </asp:PlaceHolder>
-    <webopt:bundlereference runat="server" path="~/Content/css" />
+    <webopt:BundleReference runat="server" Path="~/Content/css" />
     <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <style type="text/css">
+        h4 {
+            box-sizing: border-box;
+            margin: 0px 0px 20px;
+            font-weight: 700;
+            line-height: 1.2;
+            font-size: 24px;
+            padding: 0px 0px 10px;
+            border-bottom: 1px solid rgb(240, 240, 240);
+            color: rgb(4, 22, 31);
+            font-family: Helvetica, sans-serif;
+            font-style: normal;
+            font-variant-ligatures: normal;
+            font-variant-caps: normal;
+            letter-spacing: normal;
+            orphans: 2;
+            text-align: left;
+            text-indent: 0px;
+            text-transform: none;
+            white-space: normal;
+            widows: 2;
+            word-spacing: 0px;
+            -webkit-text-stroke-width: 0px;
+            background-color: rgb(255, 255, 255);
+            text-decoration-style: initial;
+            text-decoration-color: initial;
+        }
 
+        p {
+            box-sizing: border-box;
+            margin: 0px 0px 20px;
+            color: rgb(17, 17, 17);
+            font-family: Helvetica, sans-serif;
+            font-size: 18px;
+            font-style: normal;
+            font-variant-ligatures: normal;
+            font-variant-caps: normal;
+            font-weight: 400;
+            letter-spacing: normal;
+            orphans: 2;
+            text-align: left;
+            text-indent: 0px;
+            text-transform: none;
+            white-space: normal;
+            widows: 2;
+            word-spacing: 0px;
+            -webkit-text-stroke-width: 0px;
+            background-color: rgb(255, 255, 255);
+            text-decoration-style: initial;
+            text-decoration-color: initial;
+        }
+
+    </style>
 </head>
 <body>
     <form runat="server">
@@ -66,7 +118,7 @@
                         </AnonymousTemplate>
                         <LoggedInTemplate>
                             <ul class="nav navbar-nav navbar-right">
-                                <li><a runat="server" href="~/Account/Manage" title="Manage your account">Hello, <%: Context.User.Identity.GetUserName()  %>!</a></li>
+                                <li><a runat="server" href="~/Account/Manage" title="Manage your account">Hola, <%: Context.User.Identity.GetUserName()  %>!</a></li>
                                 <li>
                                     <asp:LoginStatus runat="server" LogoutAction="Redirect" LogoutText="Log off" LogoutPageUrl="~/" OnLoggingOut="Unnamed_LoggingOut" />
                                 </li>
@@ -82,9 +134,12 @@
             <hr />
             <footer>
                 <p>
-                    <asp:Image ID="Image1" runat="server" ImageUrl="~/Imagenes/logo_unad.png" Height="9%" Width="9%" /> <%: DateTime.Now.Year %> &nbsp; UNAD - Colombia</p>
+                    <asp:Image ID="Image1" runat="server" ImageUrl="~/Imagenes/logo_unad.png" Height="9%" Width="9%" />
+                    <%: DateTime.Now.Year %> &nbsp; UNAD - Colombia
+                </p>
             </footer>
         </div>
+
     </form>
 </body>
 </html>
