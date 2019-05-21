@@ -1,0 +1,39 @@
+﻿<%@ Master Language="VB" MasterPageFile="~/Site.master" AutoEventWireup="false" CodeFile="Evaluacion.master.vb" Inherits="Scratch_Evaliacion" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="MainContent" Runat="Server">
+    <h2><%:Page.Title %>.</h2>
+    <h3>Curso de apoyo para el proceso de enseñanza - aprendizaje.</h3>
+    <p>Para tomar este curso debes aceptar la inscripción</p>
+    <div>
+        <asp:Button ID="Button1" runat="server" Text="Aceptar Inscripción" CssClass="btn btn-default" />
+        <br />
+        <br />
+    </div>
+    <br />
+    <div class="row">
+        <div class="col-xs-6 col-md-2">
+            <ul style="list-style-type: none" class="nav">
+                <li><a href="Scratch_Intro.aspx">Introducción</a></li>
+                <li><a href="Scratch_Temas.aspx">Temas</a></li>
+                <li><a href="Scratch_Actividades_Persigue.aspx">Actividades</a></li>
+                <li style="background-color: #E4E4E4"><a href="ScratchEvaluacion.aspx">Evaluaciones</a></li>
+            </ul>
+        </div>
+
+        <div class="col-xs-6 col-md-2">
+            <ul style="list-style-type: none" class="nav">
+                <li><a runat="server" href="~/Scratch/ScratchEvaluacion.aspx">Instrucciones</a></li>
+                <li><a runat="server" href="~/Scratch/ScratchEvaluacion_inicial.aspx">Evaluación inicial</a></li>
+                <li><a runat="server" href="~/Scratch/ScratchEvaluacion_Intermedia.aspx">Evaluación intermedia</a></li>
+                <li><a runat="server" href="~/Scratch/ScratchEvaluacion_Final.aspx">Evaluación final</a></li>
+                <li><a runat="server" href="~/Scratch/ScratchEvaluacion_Notas.aspx">Notas</a></li>
+            </ul>
+        </div>
+
+        <div class="container body-content">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </div>
+</asp:Content>
+
