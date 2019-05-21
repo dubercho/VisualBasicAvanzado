@@ -1,50 +1,60 @@
-﻿<%@ Page Title="Scratch" Language="VB" MasterPageFile="~/Site.master" AutoEventWireup="false" CodeFile="ScratchEvaluacion_inicial.aspx.vb" Inherits="ScratchEvaluacion" %>
+﻿<%@ Page Title="Scratch" Language="VB" MasterPageFile="Evaluacion.master" AutoEventWireup="false" CodeFile="ScratchEvaluacion_inicial.aspx.vb" Inherits="ScratchEvaluacion" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="Server">
-    <h2><%: Title %>.</h2>
-    <h3>Curso de apoyo para el proceso de enseñanza - aprendizaje.</h3>
-    <p>Para tomar este curso debes aceptar la inscripción</p>
-    <div>
-        <asp:Button ID="Button1" runat="server" Text="Aceptar Inscripción" CssClass="btn btn-default" />
-        <br />
-        <br />
-    </div>
-    <br />
-    <div class="row">
-        <div class="col-xs-4 col-md-2">
-            <ul style="list-style-type: none" class="nav">
-                <li><a href="Scratch_Intro.aspx">Introducción</a></li>
-                <li><a href="Scratch_Temas.aspx" title="Temas">Temas</a></li>
-                <li><a href="Scratch_Actividades_Persigue.aspx">Actividades</a></li>
-                <li  style="background-color: #E4E4E4"><a href="ScratchEvaluacion.aspx">Evaluaciones</a></li>
-            </ul>
-        </div>
-
-        <div class="col-xs-6 col-md-2">
-            <ul style="list-style-type: none" class="nav">
-                <li><a runat="server" href="~/Scratch/ScratchEvaluacion.aspx">Explicación</a></li>
-                <li style="background-color: #E4E4E4"><a runat="server" href="#">Examen inicial</a></li>
-                <li><a runat="server" href="#">Examen intermedio</a></li>
-                <li><a runat="server" href="#">Examen final</a></li>
-                <li><a runat="server" href="#">Notas</a></li>
-            </ul>
-        </div>
-
-        <div class="col-xs-10 col-md-8">
-            <p>Pregunta 1 ...</p>
-            <img alt="no hay aún" src="../Imagenes/prueba.png" class="col-xs-12 col-md-12" />
-            <hr />
-            <hr />
+    <div class="col-xs-12 col-md-8">
+        <h4>Evaluación inicial</h4>
+        <div>
+            <p>1. ¿Qué es Scratch?</p>
             <asp:RadioButtonList ID="RadioButtonList1" runat="server">
-                <asp:ListItem Selected="True">Opción A</asp:ListItem>
-                <asp:ListItem>Opción B</asp:ListItem>
-                <asp:ListItem>Opción C</asp:ListItem>
-                <asp:ListItem>Opción D</asp:ListItem>
+                <asp:ListItem>Programa para ver imagenes</asp:ListItem>
+                <asp:ListItem>Editor de Texto</asp:ListItem>
+                <asp:ListItem>Lenguaje de Animación</asp:ListItem>
+                <asp:ListItem>Entorno Gráfico de Programación</asp:ListItem>
             </asp:RadioButtonList>
-            <hr />
-            <hr />
-            <p>Pregunta 2 .... 
-            </p>
+        </div>
+        <hr />
+        <div>
+            <p>2. El icono de Scratch es un Perro</p>
+            <asp:RadioButtonList ID="RadioButtonList2" runat="server">
+                <asp:ListItem>Verdadero</asp:ListItem>
+                <asp:ListItem>Falso</asp:ListItem>
+            </asp:RadioButtonList>
+        </div>
+        <hr />
+        <div>
+            <p>3. En Scratch podemos crear:</p>
+            <asp:RadioButtonList ID="RadioButtonList3" runat="server">
+                <asp:ListItem>Juegos</asp:ListItem>
+                <asp:ListItem>Diapositivas</asp:ListItem>
+                <asp:ListItem>Fuegos</asp:ListItem>
+                <asp:ListItem>Cartas</asp:ListItem>
+            </asp:RadioButtonList>
+        </div>
+        <hr />
+        <div>
+            <p>4. Para cambiar la apariencia de SCRATCH utilizamos:</p>
+            <asp:RadioButtonList ID="RadioButtonList4" runat="server">
+                <asp:ListItem>Objetos</asp:ListItem>
+                <asp:ListItem>Disfraces</asp:ListItem>
+                <asp:ListItem>Vestidos</asp:ListItem>
+                <asp:ListItem>Telas</asp:ListItem>
+            </asp:RadioButtonList>
+        </div>
+        <hr />
+        <div>
+            <p>5. Para mover un Objeto en Scratch hacia adelante o hacia atrás, ¿se utiliza la instrucción?</p>
+            <asp:RadioButtonList ID="RadioButtonList5" runat="server">
+                <asp:ListItem>Por siempre</asp:ListItem>
+                <asp:ListItem>Mover 10 pasos</asp:ListItem>
+                <asp:ListItem>Esperar</asp:ListItem>
+                <asp:ListItem>Caminar</asp:ListItem>
+            </asp:RadioButtonList>
+        </div>
+        <hr />
+        <div>
+            <br />
+            <asp:Button ID="BEnviar" runat="server" Text="Enviar" CssClass="btn btn-default" />
+            <br />
         </div>
     </div>
 </asp:Content>
