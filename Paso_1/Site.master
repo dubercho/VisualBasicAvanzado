@@ -42,7 +42,7 @@
             text-decoration-color: initial;
         }
 
-        p {
+        .p, p {
             box-sizing: border-box;
             margin: 0px 0px 20px;
             color: rgb(17, 17, 17);
@@ -102,12 +102,12 @@
                 </div>
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
-                        <li><a runat="server" href="#">Inglés</a></li>
-                        <li><a runat="server" href="#">Manejo medio ambiente</a></li>
+                        <li><a runat="server" href="~/Ingles/Ingles_intro.aspx">Inglés</a></li>
+                        <li><a runat="server" href="~/M_ambiente/M_ambiente_intro.aspx">Manejo medio ambiente</a></li>
                         <li><a runat="server" href="~/Scratch/Scratch_Intro.aspx">Scratch</a></li>
-                        <li><a runat="server" href="#">Kodu</a></li>
-                        <li><a runat="server" href="#">Realidad aumentada</a></li>
-                        <li><a runat="server" href="#">Realidad virtual</a></li>
+                        <li><a runat="server" href="~/Kodu/Kodu_intro.aspx">Kodu</a></li>
+                        <li><a runat="server" href="~/R_aumentada/R_aumentada_intro.aspx">Realidad aumentada</a></li>
+                        <li><a runat="server" href="~/R_virtual/R_virtual_intro.aspx">Realidad virtual</a></li>
                     </ul>
                     <asp:LoginView runat="server" ViewStateMode="Disabled">
                         <AnonymousTemplate>

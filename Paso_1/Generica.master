@@ -1,9 +1,8 @@
-﻿<%@ Master Language="VB" MasterPageFile="~/Site.master" AutoEventWireup="false" CodeFile="Actividades.master.vb" Inherits="Scratch_Actividades" %>
+﻿<%@ Master Language="VB" MasterPageFile="~/Site.master" AutoEventWireup="false" CodeFile="Generica.master.vb" Inherits="Generica" %>
 
-<asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="Server">
-       
+<asp:Content ID="Content1" ContentPlaceHolderID="MainContent" Runat="Server">
     <h2><%:Page.Title %>.</h2>
-    <h3>Curso de apoyo para el proceso de enseñanza - aprendizaje.</h3>
+    <h3>Curso de apoyo para el proceso de enseñanza - aprendizaje en temas de <%:Page.Title %>.</h3>
     <p>Para tomar este curso debes aceptar la inscripción</p>
     <div>
         <asp:Button ID="Button1" runat="server" Text="Aceptar Inscripción" CssClass="btn btn-default" />
@@ -14,17 +13,19 @@
     <div class="row">
         <div class="col-xs-6 col-md-2">
             <ul style="list-style-type: none" class="nav">
-                <li><a href="Scratch_Intro.aspx">Introducción</a></li>
-                <li><a href="Scratch_Temas.aspx">Temas</a></li>
-                <li style="background-color: #E4E4E4"><a href="Scratch_Actividades_Persigue.aspx">Actividades</a></li>
+                <li style="background-color: #E4E4E4"><a href="#">Introducción</a></li>
+                <li><a href="#">Temas</a></li>
+                <li><a href="#">Actividades</a></li>
                 <li><a href="ScratchEvaluacion.aspx">Evaluaciones</a></li>
             </ul>
         </div>
 
         <div class="col-xs-6 col-md-2">
             <ul style="list-style-type: none" class="nav">
-                <li><a runat="server" href="Scratch_Actividades_Persigue.aspx">Juego de Persigue</a></li>
-                <li><a runat="server" href="~/Scratch/Scratch_Actividades_Variables.aspx">Variables</a></li>
+                <li><a runat="server" href="#">A cerca de</a></li>
+                <li><a runat="server" href="#">Condiciones</a></li>
+                <li><a runat="server" href="#">Recursos</a></li>
+                <li><a runat="server" href="#">Enlaces de apoyo</a></li>
             </ul>
         </div>
 

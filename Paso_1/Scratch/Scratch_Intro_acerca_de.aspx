@@ -11,7 +11,7 @@
     </div>
     <br />
     <div class="row">
-        <div class="col-xs-4 col-md-2">
+        <div class="col-xs-6 col-md-2">
             <ul style="list-style-type: none" class="nav">
                 <li style="background-color: #E4E4E4"><a href="Scratch_Intro.aspx">Introducción</a></li>
                 <li><a href="Scratch_Temas.aspx" title="Temas">Temas</a></li>
@@ -29,7 +29,7 @@
             </ul>
         </div>
 
-        <div class="col-xs-10 col-md-8" id="acerca_de">
+        <div class="col-xs-12 col-md-8" id="acerca_de">
             <p>
                 Scratch es un entorno gráfico de programación desarrollado por un grupo de 
                 investigadores del Lifelong Kindergarten Group del Laboratorio de Medios 

@@ -3,7 +3,7 @@
 
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="Server">
 
-    <div class="col-xs-10 col-md-8">
+    <div class="col-xs-12 col-md-8">
         <h4>Interfaz de la plataforma</h4>
         <p>
             En esta lección vamos a realizar un ejemplo básico del juego de persigue para que el alumno 
